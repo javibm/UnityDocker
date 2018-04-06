@@ -3,7 +3,7 @@ FROM ubuntu
 ENV ANDROID_HOME /opt/android-sdk
 ENV ANDROID_NDK  /opt/android-ndk
 
-ENV ANDROID_BUILD_TOOLS_VERSION="25.0.2"
+ENV ANDROID_BUILD_TOOLS_VERSION="27.0.3"
 ENV ANDROID_SDK_VERSION="25.2.5"
 
 RUN apt-get -qq update && apt-get -qq install -y \
