@@ -1,6 +1,6 @@
 #!/bin/sh
 
-URL=https://beta.unity3d.com/download/0ec691fce5c2/UnitySetup-2017.4.0f1
+URL=https://beta.unity3d.com/download/170f0691b973/UnitySetup-2018.1.0f2
 INSTALL_LOCATION=/opt/Unity
 DOWNLOAD_LOCATION=/app/unity_download
 UNITY_COMPONENTS="Unity,Android"
