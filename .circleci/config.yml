@@ -21,6 +21,7 @@ jobs:
           name: Build application Docker image
           command: |
             docker build --cache-from=app -t app .
+          no_output_timeout: 3600
       - run:
           name: Save Docker image layer cache
           command: |
