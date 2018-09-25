@@ -1,9 +1,9 @@
 #!/bin/sh
 
-URL=https://beta.unity3d.com/download/10189b18f56e/UnitySetup-2018.2.0f2
+URL=https://beta.unity3d.com/download/dad990bf2728/UnitySetup-2018.2.7f1
 INSTALL_LOCATION=/opt/Unity
 DOWNLOAD_LOCATION=/app/unity_download
-UNITY_COMPONENTS="Unity,Android"
+UNITY_COMPONENTS="Unity,Android,WebGL"
 
 echo "Start Unity3D installer download..."
 curl -o /app/unity_setup -s "${URL}"
